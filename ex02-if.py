@@ -6,7 +6,7 @@ temperatura = float(input("Digite a temperatura"))
 
 if (temperatura < 20):
     print("Frio")
-if(temperatura >= 20 and temperatura < 30):
+elif(temperatura >= 20 and temperatura < 30):
     print("Agradável")
-if(temperatura >= 30):
+elif(temperatura >= 30):
     print("Quente")
