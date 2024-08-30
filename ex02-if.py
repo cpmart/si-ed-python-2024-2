@@ -4,9 +4,9 @@
 # Se for mario igual a 30, imprima quente 
 temperatura = float(input("Digite a temperatura"))
 
-if (temperatura < 20):
+if temperatura < 20:
     print("Frio")
-elif(temperatura >= 20 and temperatura < 30):
+elif temperatura < 30:
     print("Agradável")
-elif(temperatura >= 30):
+else:
     print("Quente")
