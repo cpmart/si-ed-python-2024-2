@@ -10,3 +10,4 @@ elif temperatura < 30:
     print("Agradável")
 else:
     print("Quente")
+    
